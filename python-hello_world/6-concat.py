@@ -1,3 +1,5 @@
-str1 = "Welcome to"
-str2 = "holberton school!"
-print(str1 + str2)
+#!/usr/bin/python3
+str1 = "Holberton"
+str2 = "School"
+str1 += (" " + str2)
+print("Welcome to {}!".format(str1))
