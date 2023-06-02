@@ -5,4 +5,3 @@ for item in range(10):
             print("{}{}".format(item, item2), end="")
         else:
             print("{}{}".format(item, item2), end="")
-            
