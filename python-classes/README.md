@@ -85,4 +85,3 @@ Public instance method: def my_print(self): that prints in stdout the square wit
 if size is equal to 0, print an empty line
 position should be use by using space - Don’t fill lines by spaces when position[1] > 0
 You are not allowed to import any module
-
