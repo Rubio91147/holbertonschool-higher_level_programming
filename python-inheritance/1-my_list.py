@@ -1,11 +1,24 @@
 #!/usr/bin/python3
-# 1-my_list.py
-"""Defines an inherited list class MyList."""
+"""a class MyList that inherits """
 
 
 class MyList(list):
-    """Implements sorted printing for the built-in list class."""
+    """
+    Prints the list in sorted order (ascending sort).
+    Returns:
+    list: newList ascending sort
+    """
+
+    def __init__(self, *args, **kwargs):
+        if args and args[0] is None:
+            raise TypeError("'None' object is not iterable")
+        super().__init__(*args, **kwargs)
+
+    def append(self, item):
+        if item is None:
+            raise TypeError("'None' object is not iterable")
+        super().append(item)
 
     def print_sorted(self):
-        """Print a list in sorted ascending order."""
-        print(sorted(self))
+        newList = sorted(self)
+        print(newList)
