@@ -1,12 +1,9 @@
 #!/usr/bin/python3
-'''
-    Implementing a Geometry class
-'''
+"""Write an empty class BaseGeometry"""
 
 
 class BaseGeometry:
+    """empty class BaseGeometry"""
+
     def area(self):
-        '''
-            Calculating the area
-        '''
-        raise Exception("area() is not implemented")
+        raise Exception('area() is not implemented')
