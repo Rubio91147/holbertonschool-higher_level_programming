@@ -1,2 +1,2 @@
--- Comando para listar las tablas de la base de datos
+--  Write a script that lists all the tables of a database in your MySQL server.
 SHOW TABLES;"
