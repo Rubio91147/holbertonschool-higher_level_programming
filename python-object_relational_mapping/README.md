@@ -204,4 +204,4 @@ You must import State and Base from model_state - from model_state import Base, 
 Your script should connect to a MySQL server running on localhost at port 3306
 Results must be sorted in ascending order by cities.id
 Results must be display as they are in the example below (<state name>: (<city id>) <city name>)
-Your code should not be executed when imported
+Your code should not be executed when
